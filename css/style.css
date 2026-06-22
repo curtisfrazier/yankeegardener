@@ -54,6 +54,10 @@ body {
 
 img { max-width: 100%; display: block; }
 
+/* Photos that fill their aspect-ratio containers (hero, portrait, cards, covers) */
+.cover-img { width: 100%; height: 100%; object-fit: cover; }
+.hero-art, .portrait, .post-card .thumb, .article-cover { background: var(--green-100); }
+
 a { color: var(--green-700); text-decoration: none; }
 a:hover { color: var(--coral-600); }
 
